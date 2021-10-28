@@ -21,4 +21,52 @@
     .progress__value {
         @apply shadow-none flex flex-col text-center justify-center whitespace-nowrap;
     }
+    .mybg-orange-800 {
+        @apply bg-orange-800;
+    }
+    .mybg-cyan-800 {
+        @apply bg-cyan-800;
+    }
+    .mybg-indigo-800 {
+        @apply bg-indigo-800;
+    }
+    .mybg-teal-800 {
+        @apply bg-teal-800;
+    }
+    .mybg-gray-800 {
+        @apply bg-teal-800;
+    }
+    .mybg-orange-300 {
+        @apply bg-orange-300;
+    }
+    .mybg-cyan-300 {
+        @apply bg-cyan-300;
+    }
+    .mybg-indigo-300 {
+        @apply bg-indigo-300;
+    }
+    .mybg-teal-300 {
+        @apply bg-teal-300;
+    }
+    .mybg-gray-300 {
+        @apply bg-teal-300;
+    }
+    .mytext-orange-800 {
+        @apply text-orange-800;
+    }
+    .mytext-cyan-800 {
+        @apply text-cyan-800;
+    }
+    .mytext-indigo-800 {
+        @apply text-indigo-800;
+    }
+    .mytext-teal-800 {
+        @apply text-teal-800;
+    }
+    .mytext-gray-800 {
+        @apply text-teal-800;
+    }
+    .myh-full {
+        @apply h-full;
+    }
 }

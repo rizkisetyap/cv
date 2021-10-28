@@ -25,18 +25,18 @@ skills.forEach((item, idx) => {
     progress__header.classList.add("progress__header");
     progress__title.classList.add(
         "progress__title",
-        `text-${colors[idx]}-800`,
-        `bg-${colors[idx]}-300`
+        `mytext-${colors[idx]}-800`,
+        `mybg-${colors[idx]}-300`
     );
     text_right.classList.add("text_right");
-    progress__bar.classList.add("progress__bar", `bg-${colors[idx]}-300`);
+    progress__bar.classList.add("progress__bar", `mybg-${colors[idx]}-300`);
     progress__value.classList.add(
         "animate-myanimation",
         "progress__value",
-        `bg-${colors[idx]}-800`,
-        "h-full"
+        `mybg-${colors[idx]}-800`,
+        "myh-full"
     );
-    progress__indicator.classList.add("progress__indicator", `text-${colors[idx]}-800`);
+    progress__indicator.classList.add("progress__indicator", `mytext-${colors[idx]}-800`);
 
     progress_container.appendChild(progress__header);
     text_right.appendChild(progress__indicator);
